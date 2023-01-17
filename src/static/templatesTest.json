@@ -1,0 +1,57 @@
+[{
+    "index" : 1,
+    "img" : "https://drive.google.com/file/d/1TEES8e-YEK4EUYf2jRanfjPuNIg2WAVz/view",
+    "title" : "Sell Products",
+    "subTitle": "Market Line of products seasonal items",
+    "desc": "seasonal items"
+},
+{
+    "index" : 2,
+    "img" : "http://propeller.in/components/list/img/40x40.png",
+    "title" : "Make an Announcement",
+    "subTitle": "Share details about a sale, event or other big news",
+    "desc": "big news."
+},
+{
+    "index" : 3,
+    "img" : "http://propeller.in/components/list/img/40x40.png",
+    "title" : "Tell A Story",
+    "subTitle": "Send a newsletter to let people know what you've been up to",
+    "desc": "MAIL"
+},
+{
+    "index" : 4,
+    "img" : "http://propeller.in/components/list/img/40x40.png",
+    "title" : "Follow Up",
+    "subTitle": "Send a tailored email to people who have engaged with you",
+    "desc": "MAIL"
+},
+{
+    "index" : 5,
+    "img" : "http://propeller.in/components/list/img/40x40.png",
+    "title" : "Follow Up",
+    "subTitle": "EST 5 Send a tailored email to people who have engaged with you",
+    "desc": "MAIL"
+},
+{
+    "index" : 6,
+    "img" : "http://propeller.in/components/list/img/40x40.png",
+    "title" : "Follow Up",
+    "subTitle": "EST 6 Send a tailored email to people who have engaged with you",
+    "desc": "MAIL"
+},
+{
+    "index" : 7,
+    "img" : "http://propeller.in/components/list/img/40x40.png",
+    "title" : "Follow Up",
+    "subTitle": "EST 7 Send a tailored email to people who have engaged with you",
+    "desc": "MAIL"
+},
+{
+    "index" : 8,
+    "img" : "http://propeller.in/components/list/img/40x40.png",
+    "title" : "Follow Up",
+    "subTitle": "TEST 8 Send a tailored email to people who have engaged with you",
+    "desc": "MAIL"
+}
+]

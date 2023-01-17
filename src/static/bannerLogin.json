@@ -1,0 +1,16 @@
+[{
+    "title": "Integración con notisurvey",
+    "subtitle": "Puedes crear campaña de captura de datos mediante nuestro motor de encuesta y obtener datos enriquecidos.",
+    "image": "../assets/img/login_icon1.png"
+},
+{
+    "title": "Crear campañas es muy sencillo",
+    "subtitle": "Con pocos pasos y en poco tiempo puedes llegar a tus destinatarios de forma eficiente.",
+    "image": "../assets/img/login_icon2.png"
+},
+{
+    "title": "Recolectamos todo por ti",
+    "subtitle": "Obten datos estadisticos de tus campañas en tiempo real.",
+    "image": "../assets/img/login_icon3.png"
+}
+]

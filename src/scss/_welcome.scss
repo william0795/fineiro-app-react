@@ -1,0 +1,508 @@
+@import 'global';
+
+.container-welcome {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  z-index: 1;
+  padding-top: 6%;
+}
+.table{
+  text-align: center;
+  .thead{
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    position: sticky;
+    padding: 1em 2% 0;
+    top: 0px;
+    z-index: 2;
+    th{
+      padding-top: 1%;
+      padding-bottom: 1%;
+    }
+  }
+}
+.form-inline-welcome {
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-align: center;
+  margin: auto;
+}
+
+.container-template {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  alignment: center;
+  align-items: center;
+}
+
+.rect-border {
+  border-color: $color-pink !important;
+}
+
+.background {
+  background: $color-white;
+}
+
+.logo {
+  margin: 5px 10px;
+}
+
+.write {
+  font-weight: bold;
+  position: absolute;
+  right: 20px;
+  top: 16px;
+}
+
+.shee {
+  background: $color-grey;
+  border-radius: 8px;
+  bottom: 607px;
+  height: 8px;
+  left: 20px;
+  position: absolute;
+  right: 20px;
+  top: 105px;
+  width: 1400px;
+}
+
+.sheet {
+  background: $color-yellow;
+  border-radius: 8px;
+  height: 8px;
+  left: 90px;
+  margin-left: 42px;
+  margin-top: 90px;
+  top: 70px;
+  width: 10%;
+}
+
+.sheet-next {
+  background: $color-yellow;
+  border-radius: 8px;
+  height: 8px;
+  left: 90px;
+  margin-left: 42px;
+  margin-top: 90px;
+  top: 70px;
+  width: 50%;
+}
+
+.sheet-next-last {
+  background: $color-yellow;
+  border-radius: 8px;
+  height: 8px;
+  left: 90px;
+  margin-left: 42px;
+  margin-top: 90px;
+  top: 70px;
+  width: 75%;
+}
+
+.sheets-next-last {
+  background: $color-yellow;
+  border-radius: 8px;
+  height: 8px;
+  left: 90px;
+  margin-left: 42px;
+  margin-top: 90px;
+  top: 70px;
+  width: 51%;
+}
+
+.sheets-next-last1 {
+  background: $color-yellow;
+  border-radius: 8px;
+  height: 8px;
+  left: 90px;
+  margin-left: 42px;
+  margin-top: 90px;
+  top: 70px;
+  width: 95%;
+}
+
+.sheets-next-last,
+.sheetss2 {
+  background: linear-gradient(178.18deg, $color-yellow -13.56%, $color-pink 158.3%);
+  clip-path: circle(15px at 15px 15px);
+  float: left;
+  height: 30px;
+  left: 74.4%;
+  opacity: .4;
+  position: absolute;
+  top: -10px;
+  width: 30px;
+}
+
+.sheets-next-final,
+.sheetss3 {
+  background: linear-gradient(178.18deg, $color-yellow -13.56%, $color-pink 158.3%);
+  clip-path: circle(15px at 15px 15px);
+  float: right;
+  height: 30px;
+  left: 97%;
+  opacity: .4;
+  position: absolute;
+  top: 79px;
+  width: 30px;
+}
+
+.sheets-next,
+.sheetss1 {
+  background: linear-gradient(178.18deg, $color-yellow -13.56%, $color-pink 158.3%);
+  clip-path: circle(15px at 15px 15px);
+  float: left;
+  height: 30px;
+  left: 51.6%;
+  opacity: .4;
+  position: absolute;
+  top: 79px;
+  width: 30px;
+}
+
+.sheets,
+.sheetss {
+  background: linear-gradient(178.18deg, $color-yellow -13.56%, $color-pink 158.3%);
+  clip-path: circle(15px at 15px 15px);
+  float: left;
+  height: 30px;
+  left: 11.5%;
+  opacity: .4;
+  position: absolute;
+  top: 79px;
+  width: 30px;
+}
+
+.progreso {
+  border-radius: 8px;
+  margin-left: 42px;
+  margin-top: 20px;
+}
+
+.percent {
+  font-weight: bold;
+  position: absolute;
+  right: 20px;
+  top: 118px;
+}
+
+.bienvenida .text-center h4 {
+  font-weight: bold;
+}
+
+.success {
+  display: none;
+  font-weight: bold;
+}
+
+.step-panel {
+  //todo here
+  display: flex;
+  text-align: center;
+  align-content: center;
+  alignment: center;
+  align-items: center;
+  flex: 1;
+  flex-direction: row;
+}
+
+.sheetss {
+  clip-path: circle(10px at 10px 10px);
+  height: 23px;
+  left: 11.5%;
+  top: 84px;
+  width: 23px;
+}
+
+.sheetss1 {
+  clip-path: circle(10px at 10px 10px);
+  height: 23px;
+  left: 51.9%;
+  top: 84px;
+  width: 23px;
+}
+
+.sheetss2 {
+  clip-path: circle(10px at 10px 10px);
+  height: 23px;
+  left: 77.3%;
+  top: 84px;
+  width: 23px;
+}
+
+.sheetss3 {
+  clip-path: circle(10px at 10px 10px);
+  height: 23px;
+  left: 97.3%;
+  top: 84px;
+  width: 23px;
+}
+
+.circle {
+  align-items: center;
+  background: $color-white;
+  border: 7px solid $color-pink;
+  border-radius: 50%;
+  display: grid;
+  height: 70px;
+  width: 70px;
+}
+
+.success-title {
+  color: $color-pink;
+  font-weight: bold;
+}
+
+
+.circle-success {
+  align-items: center;
+  background: $color-white;
+  border: 7px solid $color-green;
+  border-radius: 50%;
+  display: grid;
+  height: 70px;
+  width: 70px;
+}
+
+.title-steps {
+  margin-left: 12px;
+  text-align: center;
+  align-content: center;
+  alignment: center;
+  align-items: center;
+}
+
+.center-items {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  alignment: center;
+  align-items: center;
+}
+
+.circles {
+  align-items: center;
+  background: $color-white;
+  border: 7px solid $color-grey;
+  border-radius: 50%;
+  display: grid;
+  height: 70px;
+  width: 75px;
+}
+
+.rectangular {
+  border: 1px solid $color-grey;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 85px;
+  width: auto;
+  margin-left: 45px;
+}
+
+.text-bienvenida {
+  font-size: smaller;
+  margin-left: 20px;
+}
+
+.rectangulars {
+  border: 1px solid #ADB5BD;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 160px;
+  left: 50px;
+  margin-left: 50px;
+  margin-top: 9px;
+  top: 430px;
+  width: 142px;
+}
+
+.rectangular-xls {
+  border: 1px solid #ADB5BD;
+  border-radius: 100px;
+  box-sizing: border-box;
+  margin-inline: auto;
+  width: auto;
+  justify-content: center;
+}
+
+#xls {
+  margin-left: 10px;
+}
+
+.rectangular-load {
+  text-align: center;
+  color: #ADB5BD;
+  border: 1px solid #ADB5BD  ;
+  border-radius: 5px;
+  border-style: dashed;
+  box-sizing: border-box;
+  height: 78px;
+  margin-left: 100px;
+  margin-top: 20px;
+  padding-top: 10px;
+  width: 271px;
+}
+.rectangular-load.crea-lista{
+  margin-left: 0;
+}
+
+.xls {
+  background: $color-grey;
+  border: 1.5px solid $color-grey;
+  border-radius: 5px;
+  color: $color-white;
+  height: 25px;
+  left: 561px;
+  margin: 3px;
+  margin-left: 9px;
+  top: 435px;
+  width: 32px;
+}
+
+.no-success-panel {
+  display: none;
+}
+
+.success-panel {
+  display: inherit;
+}
+
+a {
+  color: $color-black;
+}
+
+.circle-forma-mailing {
+  border-radius: 50%;
+  display: grid;
+  background: $color-pink;
+  width: 50px;
+  height: 50px;
+  color: $color-white;
+  align-items: center;
+  justify-items: center;
+  font-size: 18px;
+}
+
+//#panel2-select {
+//  margin-left: 0px;
+//  margin-top: 0px;
+//  width: 0px;
+//}
+
+.panel3 {
+  margin-left: 50px;
+  margin-top: 55px;
+  width: 322px;
+}
+
+.btn-primary {
+  background-color: $color-white;
+  color: $color-grey;
+}
+
+.source {
+  left: 10%;
+  position: absolute;
+  top: 30%;
+}
+
+.source1 {
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
+
+.conteiner-info {
+  left: 40%;
+  position: absolute;
+  top: 50%;
+  width: 20%;
+}
+
+.conteiner-info-success {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  alignment: center;
+  align-items: center;
+}
+
+.btncolor {
+  background-color: $color-green;
+  border-color: $color-green;
+  border-radius: 16px;
+  color: $color-white;
+  margin-top: 20px;
+}
+
+.return_welcome {
+  bottom: 5%;
+  height: 35px;
+  left: 1px;
+  margin: 3px 3px 1px 1px;
+  padding: 10px 30px;
+  position: absolute;
+}
+
+.fas_welcome {
+  color: $color-pink;
+  font-size: 30px;
+}
+
+#p-w-circle {
+  justify-content: center !important;
+}
+.logo-mob{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .container-welcome{
+    padding-bottom: 15%;
+  }
+  .logo{
+    display: none;
+  }
+  .logo-mob{
+    display: block;
+    text-align: center;
+    img{
+      max-height: 35px;
+    }
+  }
+  .step-panel{
+    .step-data{
+      margin-bottom: 15%;
+    }
+  }
+.bienvenida{
+  margin-top: 10%;
+}
+.progreso{
+  margin-top: 1%;
+  .percent{
+    top: 135px;
+  }
+}
+  .rectangular {
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 160px;
+    left: 50px;
+    margin-left: 9px;
+    margin-top: 9px;
+    top: 430px;
+  }
+}

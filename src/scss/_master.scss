@@ -1,0 +1,39 @@
+@import 'global';
+
+.p-4 {
+  padding: 4rem;
+}
+
+body {
+  background-color: $color-white !important;
+}
+
+.div-background {
+  background-color: $color-white;
+  z-index: 2;
+}
+
+.line {
+  border-bottom: 1px dashed $color-white;
+  height: 1px;
+  margin: 40px 0;
+  width: 100%;
+}
+
+.MuiDialog-root-modal {
+  position: fixed;
+  z-index: 300;
+  inset: 0px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .p-4 {
+    margin-left: 35px;
+    padding: 1rem;
+  }
+}
+

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="%PUBLIC_URL%/ico.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/container-position192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <!-- Style Bootstrap    -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/bootstrap.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/owl.carousel.min.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/animate.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/style.css">
+  <!-- Style font awesome    -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/fontawesome/css/all.css">
+  <script src="%PUBLIC_URL%/jquery-3.3.1.slim.min.js"></script>
+  <!--  script src="%PUBLIC_URL%/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script -->
+  <script src="%PUBLIC_URL%/bootstrap.bundle.min.js"></script>
+  <script src="%PUBLIC_URL%/popper.min.js"></script>
+  <script src="%PUBLIC_URL%/react.production.min.js"></script>
+  <script src="%PUBLIC_URL%/react-dom.production.min.js"></script>
+  <script src="%PUBLIC_URL%/prop-types.min.js"></script>
+  <script src="%PUBLIC_URL%/Recharts.js"></script>
+  <script src="//editor.unlayer.com/embed.js"></script>
+  <script src="%PUBLIC_URL%/jquery.dataTables.min.js"></script>
+  <script src="%PUBLIC_URL%/owl.carousel.min.js"></script>
+  <script src="%PUBLIC_URL%/main.js"></script>
+  <link rel="stylesheet" href="%PUBLIC_URL%/dataTables.bootstrap4.min.css">
+  <title>Fineiro</title>
+
+  <script>
+    let browser = navigator.userAgent; //navigator.appCodeName;
+    let navegador = "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Zoom 3.6.0; rv:11.0) like Gecko";
+    if (browser === navegador) {
+      alert("Este sitio web funciona mejor en: \n Microsoft Edge \n Google Chrome \n Safari \n Firefox")
+      window.location.href = "microsoft-edge:http://desa.goitsa.me:8088" //"https://google.com"
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+
+
+      unlayer.init({
+        id: 'editor-container',
+        locale: 'es-ES',
+        tabs: {
+          content: {
+            enabled: true,
+          },
+          blocks: {
+            enabled: true,
+          },
+          body: {
+            enabled: true,
+          },
+          images: {
+            enabled: true,
+          },
+          uploads: {
+            enabled: true,
+          }
+        }
+
+      });
+      unlayer.registerCallback('selectImage', function (data, done) {
+        // Open the modal
+        $('#mediaLibrary').modal();
+
+        $('#mediaLibrary .images img').bind('click', function (e) {
+          // User has clicked on an image
+          // This is where we will call Unlayer's "done" callback function
+          // We will pass the image URL so Unlayer knows what image is added
+          done({ url: $(e.target).attr('src') });
+
+          // Close the modal
+          $('#mediaLibrary').modal('hide');
+        });
+      });
+
+      // We will unbind any previous image click events when modal opens to avoid duplicate events
+      $(document).ready(function () {
+        $('#mediaLibrary').on('show.bs.modal', function () {
+          $('#mediaLibrary .images img').unbind('click');
+        });
+      });
+
+      $('.chevron').click(function () {
+        if ($("#chevron").hasClass("fa fa-chevron-up")) {
+          $("#chevron").removeClass("fa fa-chevron-up")
+          $("#chevron").addClass("fa fa-chevron-down")
+        } else {
+          $("#chevron").removeClass("fa fa-chevron-down")
+          $("#chevron").addClass("fa fa-chevron-up")
+        }
+      })
+
+    })
+
+
+    $(function () {
+      $(document).on('click', '.btn-add', function (e) {
+        e.preventDefault();
+        var controlForm = $('.controls:first'),
+          currentEntry = $(this).parents('.entry:first'),
+          newEntry = $(currentEntry.clone()).appendTo(controlForm);
+
+        newEntry.find('input').val('');
+        controlForm.find('.entry:not(:last) .btn-add')
+          .removeClass('btn-add').addClass('btn-remove')
+          .removeClass('btn-success').addClass('btn-danger')
+          .html('<span class="fa fa-trash"></span>');
+      }).on('click', '.btn-remove', function (e) {
+        $(this).parents('.entry:first').remove();
+
+        e.preventDefault();
+        return false;
+      });
+    });
+
+
+
+
+  </script>
+
+</head>
+
+<body id="body-general">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+    This HTML file is a template.
+    If you open it directly in the browser, you will see an empty page.
+
+    You can add webfonts, meta tags, or analytics to this file.
+    The build step will place the bundled scripts into the <body> tag.
+
+    To begin the development, run `npm start` or `yarn start`.
+    To create a production bundle, use `npm run build` or `yarn build`.
+  -->
+</body>
+
+</html>

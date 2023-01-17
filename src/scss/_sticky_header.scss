@@ -1,0 +1,53 @@
+@import "global";
+  .nav-sticky {
+    position: sticky;
+    top: 70px;
+    z-index: 2;
+  }
+  .ul-sticky {
+    width: 100%;
+    // display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #fff;
+  }
+  .li-sticky {
+    list-style: none;
+    margin-right: 20px;
+  }
+  .li-sticky-dashboard {
+    list-style: none;
+    margin-right: 100px;
+  }
+  .li-sticky a {
+    text-decoration: none;
+  }
+  .section-sticky {
+    display: grid;
+    background: #fff;
+  }
+
+  .panel_hist_template {
+    border-top: 1px solid $color-grey;
+    padding: px 5px 10px 5px;
+  }
+
+  .panel_hist_template_no_border {
+    padding: 10px 5px 10px 5px;
+  }
+
+  .dropdown-menu.dashboard {
+    width: max-content;
+    padding-right: 0%;
+  }
+
+  .dropdown-menu.dashboard-cmp {
+    width: 450px;
+    padding-right: 0%;
+  }
+
+  .li-sticky-dashboard-indicator {
+    list-style: none;
+    width: 10000px;
+  }

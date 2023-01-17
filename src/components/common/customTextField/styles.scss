@@ -1,0 +1,13 @@
+.segment-inner-error {
+    width: 100%;
+    border-bottom: solid #ff0000 1px;
+    padding-bottom: 8px;
+    height: 32px;
+    color: #888888;
+}
+
+.segment-inner-post-error {
+    border-bottom: solid #ff0000 1px;
+    height: 32px;
+    input-security: auto;
+}

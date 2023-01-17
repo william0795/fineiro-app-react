@@ -1,0 +1,280 @@
+@import 'global';
+
+
+.banner {
+  margin: 1px;
+  width: 250px;
+}
+
+.banner0>p:nth-child(1) {
+  color: $color-pink;
+  transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  transition-property: background-color;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: bolder;
+  height: 52px;
+  line-height: 28px;
+  width: 235px;
+}
+
+.banner>p:nth-child(2) {
+  color: $color-black;
+  transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  transition-property: background-color;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  height: 60px;
+  line-height: 24px;
+  margin: 10px 1px;
+  width: 235px;
+}
+
+.banner-index {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.banner-index>div {
+  background: $color-white;
+  clip-path: circle();
+  cursor: pointer;
+  height: 8px;
+  margin: 1px 15px;
+  width: 8px;
+}
+
+.banner-current-index {
+  background: $color-pink;
+  transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  transition-property: background-color;
+  height: 16px !important;
+  text-align: center;
+  width: 16px !important;
+}
+
+.banner-current-index0::after {
+  background: $color-pink;
+  transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  transition-property: background-color;
+  clip-path: circle();
+  content: '';
+  display: block;
+  height: 8px !important;
+  margin: 4px;
+  width: 8px !important;
+}
+
+.banner-current-index1::after {
+  background: $color-blue;
+  transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  transition-property: background-color;
+  clip-path: circle();
+  content: '';
+  display: block;
+  height: 8px !important;
+  margin: 4px;
+  width: 8px !important;
+}
+
+.banner-current-index2::after {
+  background: $color-green;
+  transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  transition-property: background-color;
+  clip-path: circle();
+  content: '';
+  display: block;
+  height: 8px !important;
+  margin: 4px;
+  width: 8px !important;
+}
+// banner 2
+
+.banner1>p:nth-child(1) {
+  color: $color-blue;
+  transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  transition-property: background-color;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: bold;
+  height: 52px;
+  line-height: 28px;
+  width: 235px;
+}
+
+.banner2>p:nth-child(1) {
+  color: $color-green;
+  transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  transition-property: background-color;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: bold;
+  height: 52px;
+  line-height: 28px;
+  width: 235px;
+}
+
+.btn0 {
+  background: $color-pink;
+  border-color: $color-pink;
+  transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  transition-property: background-color;
+  border-radius: 20px;
+  color: $color-white;
+  height: 39px;
+  left: 834px;
+  margin-left: 5px;
+  top: 414px;
+  width: 307px;
+}
+
+.btn1 {
+  background-color: $color-blue;
+  border-color: $color-blue;
+  transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  transition-property: background-color;
+  border-radius: 20px;
+  color: $color-white;
+  height: 39px;
+  left: 834px;
+  margin-left: 5px;
+  top: 414px;
+  width: 307px;
+}
+
+.btn2 {
+  background: $color-green;
+  border-color: $color-green;
+  transition: all 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  transition-property: background-color;
+  border-radius: 20px;
+  color: $color-white;
+  height: 39px;
+  left: 834px;
+  margin-left: 5px;
+  top: 414px;
+  width: 307px;
+}
+
+@media (max-width:900px) {
+  .banner1>p:nth-child(1) {
+    font-size: 18px;
+    height: 1px;
+    width: 100%;
+    line-height: 20px;
+    margin-bottom: 5%;
+  }
+
+  .banner2>p:nth-child(1) {
+    font-size: 18px;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .banner0>p:nth-child(1) {
+    font-size: 18px;
+    height: 13px;
+    width: 100%;
+  }
+
+  .banner-subtitle {
+    width: 100%;
+  }
+}
+
+@media (max-width:600px) {
+  .banner1>p:nth-child(1) {
+    font-size: 18px;
+    height: 10px;
+    width: 100%;
+    line-height: 20px;
+  }
+
+  .banner2>p:nth-child(1) {
+    font-size: 18px;
+    height: 15px;
+    width: 100%;
+  }
+
+  .banner0>p:nth-child(1) {
+    font-size: 18px;
+    height: 13px;
+    width: 100%;
+  }
+
+  .banner-subtitle {
+    width: 100%;
+  }
+}
+
+@media (max-width:480px) {
+  .banner1>p:nth-child(1) {
+    font-size: 18px;
+    height: 10px;
+    width: 100%;
+    line-height: 20px;
+  }
+
+  .banner2>p:nth-child(1) {
+    font-size: 18px;
+    height: 15px;
+    width: 100%;
+  }
+
+  .banner0>p:nth-child(1) {
+    font-size: 18px;
+    height: 13px;
+    width: 100%;
+  }
+
+  .banner-subtitle {
+    width: 100%;
+  }
+}
+@media  only screen and (min-width: 360px) and (max-width:480px){
+    .login-form {
+      margin: auto;
+      flex-grow: 3;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+      margin-left: -12px;
+      margin-right: 10px;
+      margin-top: 27% !important;
+    }
+    .banner2>p:nth-child(1) {
+      font-size: 18px;
+      height: 15px;
+      width: 100%;
+      margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 360px) {
+  .banner1>p:nth-child(1) {
+    font-size: 18px;
+    height: 25px;
+    width: 100%;
+    line-height: 20px;
+  }
+
+  .banner2>p:nth-child(1) {
+    font-size: 18px;
+    height: 0px;
+    width: 100%;
+    margin-bottom: 15%;
+  }
+
+  .banner0>p:nth-child(1) {
+    font-size: 18px;
+    height: 10px;
+    width: 100%;
+  }
+
+}

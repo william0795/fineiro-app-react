@@ -1,0 +1,56 @@
+[{
+    "index" : 1,
+    "id" : "li1",
+    "href" : "/notify/dashboard",
+    "name" : "Dashboard",
+    "classLi": "li1Id",
+    "classBox": "li1ClassBox",
+    "classBoxContent": "li1ClassBoxContent",
+    "classSpan": "li1ClassSpan fa fa-bar-chart",
+    "classInfo": "btnDashInfo"
+},
+{
+    "index" : 5,
+    "id" : "li5",
+    "href" : "/notify/campaign",
+    "name" : "Campaña",
+    "classLi": "li5Id",
+    "classBox": "li5ClassBox",
+    "classBoxContent": "li5ClassBoxContent",
+    "classSpan": "li5ClassSpan fa fa-bullhorn",
+    "classInfo": "btnCampInfo"
+},
+{
+    "index" : 3,
+    "id" : "li3",
+    "href" : "/notify/plantillas",
+    "name" : "Plantillas",
+    "classLi": "li3Id",
+    "classBox": "li3ClassBox",
+    "classBoxContent": "li3ClassBoxContent",
+    "classSpan": "li3ClassSpan fa fa-columns",
+    "classInfo": "btnTemInfo"
+},
+{
+    "index" : 2,
+    "id" : "li2",
+    "href" : "/notify/contact",
+    "name" : "Contactos",
+    "classLi": "li2Id",
+    "classBox": "li2ClassBox",
+    "classBoxContent": "li2ClassBoxContent",
+    "classSpan": "li2ClassSpan fa fa-user",
+    "classInfo": "btnUserInfo"
+},
+{
+    "index" : 4,
+    "id" : "li4",
+    "href" : "/notify/report",
+    "name" : "Reportes",
+    "classLi": "li4Id",
+    "classBox": "li4ClassBox",
+    "classBoxContent": "li4ClassBoxContent",
+    "classSpan": "li4ClassSpan fa fa-chart-pie",
+    "classInfo": "btnReport"
+}  
+]

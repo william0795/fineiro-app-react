@@ -1,0 +1,25 @@
+[{
+    "index" : 1,
+    "img" : "http://propeller.in/components/list/img/40x40.png",
+    "title" : "1.- Nombre de la plantilla",
+    "classFa": "fa fa-envelope",
+    "titleFa": "MAIL",
+    "date": "5/19/2022"
+},
+{
+    "index" : 2,
+    "img" : "http://propeller.in/components/list/img/40x40.png",
+    "title" : "2.- Nombre de la plantilla",
+    "classFa": "fa fa-sms",
+    "titleFa": "SMS",
+    "date": "5/19/2022"
+},
+{
+    "index" : 3,
+    "img" : "http://propeller.in/components/list/img/40x40.png",
+    "title" : "3.- Nombre de la plantilla",
+    "classFa": "fa fa-whatsapp",
+    "titleFa": "WHATSAPP",
+    "date": "5/19/2022"
+}
+]

@@ -1,0 +1,77 @@
+@import 'global';
+
+.logo {
+  margin: 5px 10px;
+}
+
+.background-circle-forgot {
+  background: $color-white;
+  clip-path: circle(230px at 230px 230px);
+  height: 480px;
+  width: 460px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn-send { 
+  margin-left: 0rem !important;
+}
+
+.login-forgot-password {
+  align-items: center;
+  justify-content: center;
+}
+
+.login-forgot-password form {
+  text-align: center;
+  width: 370px;
+  width: 400px;
+  margin: 0 auto;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+
+.flex-shrink {
+  margin-top: -8px;
+}
+.contentDesusc{
+  text-align: center;
+  padding-top: 10%;
+  .content-data-desusc{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+  }
+  .pregunta{
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+}
+.btn-action{
+  text-align: center;
+  .btn-pincipal{
+    background: #FF4197;
+    border: 1px solid #ff4197;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 12px;
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+}
+.title-canc{
+  color: #ff4197;
+}
+
+

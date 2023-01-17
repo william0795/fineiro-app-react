@@ -1,0 +1,29 @@
+[{
+    "index" : 1,
+    "classIcon" : "bx bx-cart-alt cart fa fa-bullhorn notify-color",
+    "name" : "Campañas despachadas",
+    "number": "30",
+    "position": "r"
+},
+{
+    "index" : 2,
+    "classIcon" : "bx bxs-cart-add cart fa fa-bullhorn notify-color",
+    "name" : "Campañas programadas",
+    "number": "50",
+    "position": "r"
+},
+{
+    "index" : 3,
+    "classIcon" : "bx bx-cart cart fa fa-paper-plane notify-color",
+    "name" : "Notificaciones enviadas",
+    "number": "28",
+    "position": "r"
+},
+{
+    "index" : 4,
+    "classIcon" : "bx bxs-cart-download cart fa fa-calendar notify-color",
+    "name" : "última programación",
+    "number": "20/02/2022",
+    "position": "r"
+}
+]

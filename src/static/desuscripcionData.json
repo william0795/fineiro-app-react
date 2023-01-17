@@ -1,0 +1,22 @@
+[
+{
+    "value" : 0,
+    "text" : "No quiero recibir más estos correos electrónicos"
+}, 
+{
+    "value" : 1,
+    "text" : "Nunca me registré en esta lista de correos"
+}, 
+{
+    "value" : 2,
+    "text" : "El contenido del correo electrónico es inapropiado"
+}, 
+{
+    "value" : 3,
+    "text" : "Considero el correo electrónico recibido como spam"
+}, 
+{
+    "value" : 4,
+    "text" : "Otro"
+}
+]
